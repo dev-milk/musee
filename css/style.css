@@ -2,6 +2,10 @@
 
 /* 共通 */
 
+*{
+    box-sizing: border-box;
+  }
+
 html {
     font-size: 100%;
     font-family:'Roboto','Hiragino Sans','Meiryo','Hiragino Kaku Gothic ProN',sans-serif;
@@ -33,7 +37,7 @@ header {
 }
 header ul {
     display: flex;
-    padding: 10px 0;
+    padding: 16px 0;
   }
 header li {
     font-size: 0.9rem;
@@ -66,13 +70,30 @@ header li a:hover {
     height: 420px;
     object-fit: cover;
 }
-#mainvisual {
-    margin-bottom: 80px;
+
+/*  section */
+.wrapper {
+    max-width: 960px;
+    margin: 0 auto 120px;
+    font-size: 0.9rem;
+    padding: 0 4%;
+}
+.sec-title {
+   font-size: 1.5rem;
+   text-align: center;
+   margin-bottom: 65px;
+
 }
 
-#mainvisual img {
+/*  footer */
+footer {
+    display:flex;
+    justify-content:center;
+    background-color: #24292e;
     width: 100%;
-    max-width: 1920px;
-    height: 420px;
-    object-fit: cover;
+    height:auto;
+    padding:10px;
+    color: #fff;
+    font-size: 0.7rem;
 }
+
