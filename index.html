@@ -8,6 +8,7 @@
   <title>Musée</title>
   <link rel="stylesheet" href="css/ress.min.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/all.css">
 </head>
 
 <body>
@@ -19,9 +20,9 @@
         <li><a href="#gallery">Gallery</a></li>
         <li><a href="#news">News</a></li>
         <li><a href="#access">Access</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="https://www.instagram.com/devsugar_biz/" target="_blank">
-          <img src="./img/icon-instagram.png" alt="Instagram">
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="https://devmilk.biz/portfolio/" target="_blank">
+          <i class="fa-solid fa-box-archive icon"></i>
         </a></li>
       </ul>
     </nav>
@@ -84,6 +85,7 @@
         <dd>Solo Exhibition - Japanese painter devmilk will hold a solo exhibition at the Small Hall.</dd>
       </dl>
     </section>
+
     <section id="access" class="wrapper">
       <h2 class="sec-title">Access</h2>
         <ul>
@@ -101,11 +103,30 @@
           </li>
         </ul>
     </section>
+
+    <section id="contact" class="wrapper">
+      <h2 class="sec-title">Contact</h2>
+      <form action="#" method="post">
+        <dl>
+          <dt><label for="name">NAME</label></dt>
+          <dd><input type="text" id="name" name="your-name"></dd>
+          <dt><label for="email">E-mail</label></dt>
+          <dd><input type="email" id="email" name="your-email"></dd>
+          <dt><label for="message">MESSAGE</label></dt>
+          <dd><textarea id="message" name="your-message"></textarea></dd>
+        </dl>
+        <div class="button">
+          <input type="submit" value="送信">
+        </div>
+      </form>
+    </section>
+
   </main>
   <footer >
       <ul>
-        <li>&copy; 2023 Musée</li>
+        <li>&copy; 2023 Musée by devmilk</li>
       </ul>
-  </footer> 
+  </footer>
+  <script src="js/all.js"></script> 
 </body>
 </html>

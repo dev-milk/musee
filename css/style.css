@@ -59,6 +59,11 @@ header li a:hover {
     opacity: 0.8;
 }
 
+.icon {
+  color:rgb(93, 186, 202);
+  font-size: 1.4rem;
+}
+
 /*  top-image */
 #top-image {
     margin-bottom: 80px;
@@ -152,19 +157,18 @@ header li a:hover {
 }
 #contact .button input {
   width: 200px;
-  background-color: #24292e;
+  background-color: rgb(93, 186, 202);
   color: #fff;
   padding: 15px 0;
-  border: solid 1px #24292e;
+  border: solid 1px rgb(93, 186, 202);
   border-radius: 5px;
 }
 #contact .button input:hover {
-  background: #fff;
-  color: #24292e;
+  opacity: 0.8;
 }
 
 section #contact {
-  margin-bottom: 180px;
+  margin-bottom: 120px;
 }
 
 
@@ -194,10 +198,10 @@ footer {
     justify-content:center;
     background-color: #24292e;
     width: 100%;
-    height:auto;
-    padding:10px;
+    height:80px;
+    padding-top:1rem;
     color: #fff;
-    font-size: 0.7rem;
+    font-size: 0.8rem;
 }
 
 /*  sp */
