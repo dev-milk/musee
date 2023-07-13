@@ -60,21 +60,36 @@ header li a:hover {
 }
 
 .icon {
-  color:rgb(93, 186, 202);
   font-size: 1.4rem;
+  margin-right: 8px;
 }
 
-/*  top-image */
-#top-image {
-    margin-bottom: 80px;
+
+/*  slide show */
+.slide-items {
+  list-style: none;
+  position: relative;
+  width: 1920px;
+  height: 420px;
+  overflow: hidden;
+  margin-bottom: 80px;
 }
 
-#top-image img {
-    width: 100%;
-    max-width: 1920px;
-    height: 420px;
-    object-fit: cover;
+.slide-items img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  transition: 4s linear transform .4s;
+  object-fit: cover;
 }
+
+.slide-items .zoom {
+  transform: scale(1.05);
+}
+
 
 /*  section */
 .wrapper {
@@ -227,6 +242,11 @@ footer {
   }
   header li:first-child {
     margin-left: 0;
+  }
+
+  .slide-items {
+    background-image: url(../img/top-image-sp.jpg);
+    object-fit: cover;
   }
 
   #gallery ul {

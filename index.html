@@ -22,26 +22,26 @@
         <li><a href="#access">Access</a></li>
         <li><a href="#contact">Contact</a></li>
         <li><a href="https://devmilk.biz/portfolio/" target="_blank">
-          <i class="fa-solid fa-box-archive icon"></i>
+          <img src="img/icon-instagram.png">
         </a></li>
       </ul>
     </nav>
   </header>
   <main>
-    <div id="top-image">
-      <picture>
-        <source media="(max-width: 600px)" srcset="./img/top-image-sp.jpg">
-        <img src="./img/top-image-pc.jpg" alt="キービジュアル">
-      </picture>
+    <div class="slide-items" id="js-slide">
+      <img src="./img/top-image-1.jpg" alt="キービジュアル">
+      <img src="./img/top-image-2.jpg" alt="2nd">
+      <img src="./img/top-image-3.jpg" alt="3rd">
+      <img src="./img/top-image-4.jpg" alt="4th">
     </div>
 
     <section id="about" class="wrapper">
-      <h2 class="sec-title">About</h2>
+      <h2 class="sec-title"><i class="fa-solid fa-mug-saucer icon"></i>About</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </section>
 
     <section id="gallery" class="wrapper">
-      <h2 class="sec-title">Gallery</h2>
+      <h2 class="sec-title"><i class="fa-solid fa-cube icon"></i>Gallery</h2>
       <ul>
         <li>         
           <a href="#"><img src="img/room-1.jpg" alt="gallery1"></a>
@@ -71,7 +71,7 @@
     </section>
 
     <section id="news" class="wrapper">
-      <h2 class="sec-title">News</h2>
+      <h2 class="sec-title"><i class="fa-solid fa-font-awesome icon"></i>News</h2>
       <dl>
         <dt>2023.06.03</dt>
         <dd>The design magazine "Web design explorer Vol.12" published our work.</dd>
@@ -87,7 +87,7 @@
     </section>
 
     <section id="access" class="wrapper">
-      <h2 class="sec-title">Access</h2>
+      <h2 class="sec-title"><i class="fa-solid fa-code-compare icon"></i>Access</h2>
         <ul>
           <li>         
             <a href="#"><img src="img/AccessMap.svg" alt="gallery1"></a>
@@ -105,7 +105,7 @@
     </section>
 
     <section id="contact" class="wrapper">
-      <h2 class="sec-title">Contact</h2>
+      <h2 class="sec-title"><i class="fa-solid fa-window-maximize icon"></i>Contact</h2>
       <form action="#" method="post">
         <dl>
           <dt><label for="name">NAME</label></dt>
@@ -127,6 +127,8 @@
         <li>&copy; 2023 Musée by devmilk</li>
       </ul>
   </footer>
-  <script src="js/all.js"></script> 
+  <script src="js/all.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="js/main.js"></script> 
 </body>
 </html>
